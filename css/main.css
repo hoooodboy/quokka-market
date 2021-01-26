@@ -1,0 +1,215 @@
+body {
+    background: #f8f9fa;
+}
+header{
+    top: 0;
+    position: sticky;
+    background-color: #f8f9fa;
+}
+.top-header {
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.wrapper {
+    display: flex;
+    padding: 20px;
+}
+
+.wrapper div {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.border {
+    width: 100%;
+    height: 0px;
+    border-top: 1px solid lightgray;
+    text-indent:-10000px
+}
+.menu {
+    padding-top: 10px;
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: center;
+    flex: 1;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.search {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #f6d4d2;
+    padding: 10px 25px;
+}
+
+.input{
+    flex: 1;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.ehe {
+    margin-top: 8px;
+    width: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 550px;
+}
+
+.banner {
+    width: 1029px;
+    margin: 0 auto;
+}
+
+
+
+.banner img {
+    width: 100%;
+}
+
+.ups {
+    font-family: 'Nanum Pen Script', cursive;
+    font-style: italic;
+    width: 1029px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 30px; 
+}
+
+.contents {
+    width: 1029px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents img {
+    width: 190px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.shoes-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    box-shadow:  4px 4px 8px #bebebe,
+    -4px -4px 8px #ffffff;    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #fff;
+}
+
+.info {
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.price {
+    margin-top: 9px;
+}
+
+.shoes-wrapper:hover {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+
+    width: 190px;
+
+    box-shadow:  8px 8px 16px #bebebe,
+    -8px -8px 16px #ffffff;
+}
+.info {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.info-wrapper {
+    width: 100%;
+    color: gray;
+    font-weight: 300;
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.choice {
+    width: 1029px;
+    margin: 0 auto;
+    padding: 50px 0 15px 0;
+}
+
+.en {
+    font-size: 25px;
+    font-weight: 800;
+    color: #111;
+}
+
+.ko {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+}
+
+footer {
+
+    background-color: #f6d4d2;
+
+
+}
+
+.sell {
+    color: black; 
+    text-decoration: none;
+
+}
+.footer-wrapper {
+    max-width: 1200px;
+    padding-top: 50px;
+    background-color: #f6d4d2;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 200px;
+    line-height: 25px;
+}
